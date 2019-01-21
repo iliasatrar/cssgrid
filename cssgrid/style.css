@@ -1,0 +1,250 @@
+/*   desktop   */
+@media (min-width: 1031px){
+*{
+  margin: 0;
+  padding: 0;
+}
+.title {grid-area: title;}
+.bewerking {grid-area: bewerking;}
+.visie {grid-area: visie;}
+.haalbare{grid-area: haalbare;}
+.content{grid-area: content;}
+.footer{grid-area: footer;}
+.begin{grid-area: begin}
+.inzicht{grid-area: inzicht}
+.bezuinig{grid-area: bezuinig}
+.time{grid-area: time}
+.spaar{grid-area: spaar}
+.handel{grid-area: handel}
+.innoveer{grid-area: innoveer}
+.passie{grid-area: passie}
+
+.grid{
+  display: grid;
+  grid-template-areas:
+    'title title title title title bewerking'
+    'visie visie haalbare haalbare begin begin'
+    'inzicht inzicht bezuinig bezuinig time time'
+    'spaar spaar handel handel innoveer innoveer'
+    'passie passie passie passie innoveer innoveer'
+    'content content content footer footer footer';
+  grid-gap: 5px;
+  background-color: #39AC11;
+  padding: 5px;
+}
+
+.grid> div {
+  background-color: #CFB53B;
+  padding: 10px 0;
+  font-size: 20px;
+}
+h1 {
+  text-align: center;
+  color: #39AC11;
+   font-family: impact;
+   font-size: 60px;
+}
+
+h2 {
+  text-align: center;
+  color: #39AC11;
+   font-family: "Times New Roman", Times, serif;
+   font-size: 30px;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+   font-family: Courier;
+   font-size: 25px;
+}
+
+p {
+    text-align: left;
+  color: black;
+   font-family: Courier;
+   font-size: 15px;
+     padding: 10px;
+}
+
+footer{
+    text-align: center;
+}
+
+aside{
+    text-align: center;
+}
+
+  }
+
+
+/*   Tablet   */
+  @media (min-width: 768px) and (max-width: 1030px) {
+
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .title {grid-area: title;}
+    .bewerking {grid-area: bewerking;}
+    .visie {grid-area: visie;}
+    .haalbare{grid-area: haalbare;}
+    .content{grid-area: content;}
+    .footer{grid-area: footer;}
+    .begin{grid-area: begin}
+    .inzicht{grid-area: inzicht}
+    .bezuinig{grid-area: bezuinig}
+    .time{grid-area: time}
+    .spaar{grid-area: spaar}
+    .handel{grid-area: handel}
+    .innoveer{grid-area: innoveer}
+    .passie{grid-area: passie}
+
+    .grid{
+      display: grid;
+      grid-template-areas:
+        'title title title title title title'
+        'bewerking bewerking bewerking bewerking bewerking bewerking'
+        'visie visie visie haalbare haalbare haalbare'
+        'begin begin begin inzicht inzicht inzicht'
+        'bezuinig bezuinig bezuinig time time time'
+        'spaar spaar spaar handel handel handel '
+        'innoveer innoveer innoveer passie passie passie'
+        'content content content footer footer footer';
+      grid-gap: 5px;
+      background-color: #39AC11;
+      padding: 5px;
+    }
+
+    .grid> div {
+      background-color: #CFB53B;
+      padding: 10px 0;
+      font-size: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #39AC11;
+       font-family: impact;
+       font-size: 40px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #39AC11;
+       font-family: "Times New Roman", Times, serif;
+       font-size: 30px;
+    }
+
+    h3 {
+      text-align: center;
+      color: white;
+       font-family: Courier;
+       font-size: 25px;
+    }
+
+    p {
+      text-align: left;
+      color: black;
+       font-family: Courier;
+       font-size: 20px;
+         padding: 10px;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    aside{
+      text-align: center;
+    }
+
+  }
+
+
+/*   Phone   */
+@media (min-width: 1px) and (max-width: 767px){
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .title {grid-area: title;}
+  .bewerking {grid-area: bewerking;}
+  .visie {grid-area: visie;}
+  .haalbare{grid-area: haalbare;}
+  .content{grid-area: content;}
+  .footer{grid-area: footer;}
+  .begin{grid-area: begin}
+  .inzicht{grid-area: inzicht}
+  .bezuinig{grid-area: bezuinig}
+  .time{grid-area: time}
+  .spaar{grid-area: spaar}
+  .handel{grid-area: handel}
+  .innoveer{grid-area: innoveer}
+  .passie{grid-area: passie}
+
+  .grid{
+    display: grid;
+    grid-template-areas:
+      'title title title title title title'
+      'bewerking bewerking bewerking bewerking bewerking bewerking '
+      'visie visie visie visie visie visie'
+      'haalbare haalbare haalbare haalbare haalbare haalbare'
+      'begin begin begin begin begin begin'
+      'inzicht inzicht inzicht inzicht inzicht inzicht'
+      'bezuinig bezuinig bezuinig bezuinig bezuinig bezuinig'
+      'time time time time time time'
+      'spaar spaar spaar spaar spaar spaar'
+      'handel handel handel handel handel handel'
+      'innoveer innoveer innoveer innoveer innoveer innoveer'
+      'passie passie passie passie passie passie'
+      'content content content content content content'
+      'footer footer footer footer footer footer';
+    grid-gap: 5px;
+    background-color: #39AC11;
+    padding: 5px;
+  }
+
+  .grid> div {
+    background-color: #CFB53B;
+    padding: 10px 0;
+    font-size: 20px;
+  }
+  h1 {
+    text-align: center;
+    color: #39AC11;
+     font-family: impact;
+     font-size: 30px;
+  }
+
+  h2 {
+    text-align: center;
+    color: #39AC11;
+     font-family: "Times New Roman", Times, serif;
+     font-size: 20px;
+  }
+
+  h3 {
+    text-align: center;
+    color: white;
+     font-family: Courier;
+     font-size: 20px;
+  }
+
+  p {
+    text-align: left;
+    color: black;
+     font-family: Courier;
+     font-size: 15px;
+       padding: 10px;
+  }
+
+  footer{
+      text-align: center;
+  }
+
+  aside{
+    text-align: center;
+  }
+
+}
